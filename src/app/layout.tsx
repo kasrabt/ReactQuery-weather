@@ -19,12 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${GeistSans.variable}`}>
       <body>
-        <>
-          <ReactQueryClientProvider>
-            <Wallpaper />
-            {children}
-          </ReactQueryClientProvider>
-        </>
+        <ReactQueryClientProvider><Wallpaper />{children}</ReactQueryClientProvider>
       </body>
     </html>
   );

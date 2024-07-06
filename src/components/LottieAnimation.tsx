@@ -1,7 +1,7 @@
 'use client'
 import Lottie from "react-lottie";
 import React from "react";
-import * as animationData from "~/app/assets/weatherLottie.json";
+import * as animationData from "~/assets/weatherLottie.json";
 const defaultOptions = {
   loop: true,
   autoplay: true,
@@ -11,5 +11,5 @@ const defaultOptions = {
   }
 };
 export default function LottieAnimation() {
-  return <Lottie   options={defaultOptions} height={400} width={400} />;
+  return <Lottie   options={defaultOptions} height={200} width={400} />;
 }
