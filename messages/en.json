@@ -1,0 +1,13 @@
+{
+  "Index": {
+    "temp": "Temp",
+    "humidity": "humidity",
+    "Feels Like": " Feels Like",
+    "persian": "Persian",
+    "English": "English",
+    "City": "City",
+    "search": "Search" , 
+    "loading" : "Loading ..." , 
+    "error" : "this place does not exist !"
+  }
+}

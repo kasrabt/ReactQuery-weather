@@ -52,3 +52,7 @@ export interface WeatherData {
     name: string;
     cod: number;
 }
+
+export interface ChildrenProps  {
+    children: React.ReactNode;
+  };
